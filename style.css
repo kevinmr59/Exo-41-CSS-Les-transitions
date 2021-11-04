@@ -1,0 +1,32 @@
+#transi1
+{ background-color: black;
+    transition: background-color, height, width;
+    transition-duration: 6s;
+    height: 20rem;
+    width: 20rem
+
+}
+#transi1:hover
+{
+    background-color: lightgrey;
+    transition-timing-function: ease-in-out ;
+    transition-duration: 500ms;
+    height: 30rem;
+    width: 30rem;
+
+}
+#transi2
+{   color: black;
+    transition: color, height, width;
+    width: 20rem;
+    height: 20rem;
+
+}
+#transi2:hover
+{
+    color: blue;
+    transition-timing-function: ease-in-out;
+    width: 30rem;
+    height: 30rem;
+
+}
